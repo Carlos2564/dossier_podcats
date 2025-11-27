@@ -814,8 +814,11 @@ body.loaded {
     border-radius: var(--radius-lg);
     padding: 2px;
     background: var(--primary-gradient);
+    /* Versión con prefijo para WebKit/Blink (Chrome, Safari, Edge) */
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
+    /* Versión estándar CSS para compatibilidad futura */
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0;
     transition: opacity var(--transition-normal);
