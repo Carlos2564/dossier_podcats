@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎙️ ¿Por Qué un Podcast? - TecnoEducación</title>
+    <link rel="stylesheet" href="porque-podcast.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Partículas de fondo animadas -->
+    <div class="particles-container" id="particles"></div>
+    
+    <!-- Cursor personalizado -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navegación espectacular -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🎙️</span>
+                <span class="logo-text">TecnoPodcast</span>
+                <div class="logo-underline"></div>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <span class="nav-icon">🏠</span>
+                        <span class="nav-text">Inicio</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="porque-podcast.html" class="nav-link">
+                        <span class="nav-icon">❓</span>
+                        <span class="nav-text">¿Por qué un Podcast?</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="episodios.html" class="nav-link">
+                        <span class="nav-icon">🎧</span>
+                        <span class="nav-text">Episodios</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="produccion.html" class="nav-link">
+                        <span class="nav-icon">🎬</span>
+                        <span class="nav-text">Producción</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="desafios.html" class="nav-link">
+                        <span class="nav-icon">🚀</span>
+                        <span class="nav-text">Desafíos</span>
+                    </a>
+                </li>
+            </ul>
+            
+            <div class="nav-social">
+                <a href="#" class="social-link" title="Email">📧</a>
+                <a href="#" class="social-link" title="GitHub">💻</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section Página -->
+    <section class="page-hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        
+        <div class="page-hero-content">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                <span class="badge-text">✨ Innovación Educativa</span>
+            </div>
+            
+            <h1 class="page-title">
+                <span class="title-line">¿Por Qué un</span>
+                <span class="title-line gradient-text">Podcast? 🎙️</span>
+            </h1>
+            
+            <p class="page-subtitle">
+                Descubre las razones que hacen del formato de audio la mejor opción para el aprendizaje moderno
+                <span class="emoji-float">🎧</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Beneficios del Podcast Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">💎 Beneficios Clave</span>
+                <h2 class="section-title">
+                    El Poder del
+                    <span class="gradient-text">Audio Educativo</span>
+                </h2>
+                <p class="section-description">
+                    Seis razones fundamentales que convierten al podcast en la herramienta perfecta para el aprendizaje
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <!-- Beneficio 1: Accesibilidad -->
+                <article class="benefit-card" data-benefit="1">
+                    <div class="benefit-glow"></div>
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon-circle" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <span class="benefit-icon">🎧</span>
+                        </div>
+                        <div class="icon-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Comodidad</h3>
+                        <p class="benefit-description">
+                            Consume el contenido de forma flexible: al manejar, entrenar o trabajar.
+                        </p>
+                        <div class="benefit-features">
+                            <span class="feature-tag">📱 Móvil</span>
+                            <span class="feature-tag">🚗 En movimiento</span>
+                            <span class="feature-tag">⏰ 24/7</span>
+                        </div>
+                    </div>
+                    <div class="benefit-number">01</div>
+                </article>
+
+                <!-- Beneficio 2: Aprendizaje -->
+                <article class="benefit-card" data-benefit="2">
+                    <div class="benefit-glow"></div>
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon-circle" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <span class="benefit-icon">💡</span>
+                        </div>
+                        <div class="icon-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Enriquecimiento</h3>
+                        <p class="benefit-description">
+                            Información valiosa que profundiza tu entendimiento en áreas de tu interés.
+                        </p>
+                        <div class="benefit-features">
+                            <span class="feature-tag">📚 Educativo</span>
+                            <span class="feature-tag">🎯 Enfocado</span>
+                            <span class="feature-tag">🌟 Valioso</span>
+                        </div>
+                    </div>
+                    <div class="benefit-number">02</div>
+                </article>
+
+                <!-- Beneficio 3: Comunidad -->
+                <article class="benefit-card" data-benefit="3">
+                    <div class="benefit-glow"></div>
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon-circle" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                            <span class="benefit-icon">🌍</span>
+                        </div>
+                        <div class="icon-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Conexión</h3>
+                        <p class="benefit-description">
+                            Interactúa con oyentes que comparten tu visión y únete a un colectivo global.
+                        </p>
+                        <div class="benefit-features">
+                            <span class="feature-tag">👥 Red Global</span>
+                            <span class="feature-tag">💬 Diálogo</span>
+                            <span class="feature-tag">🤝 Conexión</span>
+                        </div>
+                    </div>
+                    <div class="benefit-number">03</div>
+                </article>
+
+                <!-- Beneficio 4: Contenido Único -->
+                <article class="benefit-card" data-benefit="4">
+                    <div class="benefit-glow"></div>
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon-circle" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                            <span class="benefit-icon">🎯</span>
+                        </div>
+                        <div class="icon-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Originalidad</h3>
+                        <p class="benefit-description">
+                            Análisis frescos y diálogos estimulantes que destacan en el panorama digital.
+                        </p>
+                        <div class="benefit-features">
+                            <span class="feature-tag">✨ Original</span>
+                            <span class="feature-tag">🎨 Auténtico</span>
+                            <span class="feature-tag">🔥 Exclusivo</span>
+                        </div>
+                    </div>
+                    <div class="benefit-number">04</div>
+                </article>
+
+                <!-- Beneficio 5: A Tu Ritmo -->
+                <article class="benefit-card" data-benefit="5">
+                    <div class="benefit-glow"></div>
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon-circle" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                            <span class="benefit-icon">⏯️</span>
+                        </div>
+                        <div class="icon-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Flexibilidad</h3>
+                        <p class="benefit-description">
+                            Detente, repite o adelanta según tu necesidad. La gestión del audio es tuya.
+                        </p>
+                        <div class="benefit-features">
+                            <span class="feature-tag">⏸️ Pausa</span>
+                            <span class="feature-tag">⏪ Repite</span>
+                            <span class="feature-tag">⚡ Tu control</span>
+                        </div>
+                    </div>
+                    <div class="benefit-number">05</div>
+                </article>
+
+                <!-- Beneficio 6: Inspiración -->
+                <article class="benefit-card" data-benefit="6">
+                    <div class="benefit-glow"></div>
+                    <div class="benefit-icon-wrapper">
+                        <div class="benefit-icon-circle" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                            <span class="benefit-icon">🚀</span>
+                        </div>
+                        <div class="icon-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="benefit-content">
+                        <h3 class="benefit-title">Motivación</h3>
+                        <p class="benefit-description">
+                            Relatos genuinos y perspectivas que fomentan tu desarrollo personal y de carrera.
+                        </p>
+                        <div class="benefit-features">
+                            <span class="feature-tag">💪 Motivación</span>
+                            <span class="feature-tag">🌟 Crecimiento</span>
+                            <span class="feature-tag">🎓 Desarrollo</span>
+                        </div>
+                    </div>
+                    <div class="benefit-number">06</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fundamentos Tecnológicos Section -->
+    <section class="fundamentos-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">🔬 Marco Teórico</span>
+                <h2 class="section-title">
+                    Fundamentos Tecnológicos y
+                    <span class="gradient-text">Educación Digital</span>
+                </h2>
+            </div>
+
+            <div class="fundamentos-content">
+                <div class="fundamentos-intro">
+                    <div class="intro-icon">📡</div>
+                    <p class="intro-text">
+                        Esta serie de audiolibros desarrollada durante el presente ciclo académico, nace con el objetivo de integrar y aplicar soluciones digitales para la inclusión educativa, a través de seis entregas, exploramos desde el potencial de las realidades inmersivas (XR) e Inteligencia Artificial hasta la planificación de intervenciones especializadas con el Modelo M-Free. Esta colección busca no solo explicar el 'cómo' usar estas herramientas, sino el 'para qué' nos sirven en la creación de aulas accesibles y equitativas.
+                    </p>
+                </div>
+
+                <div class="fundamentos-mission">
+                    <div class="mission-card">
+                        <div class="mission-icon">🎯</div>
+                        <h3>Nuestra Misión</h3>
+                        <p>
+                            Esta colección busca no solo explicar el 'cómo' aplicar la innovación, sino el 'para qué' nos sirve en la atención a la diversidad. Humanizamos las herramientas de inclusión digital y las conectamos con las necesidades educativas especiales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formato Audiolibro Section -->
+    <section class="formato-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">🎵 Metodología</span>
+                <h2 class="section-title">
+                    ¿Por qué elegimos el formato
+                    <span class="gradient-text">Audiolibro?</span>
+                </h2>
+                <p class="section-description">
+                    La decisión de presentar este ciclo académico en formato sonoro responde a tres pilares fundamentales
+                </p>
+            </div>
+
+            <div class="formato-grid">
+                <!-- Pilar 1 -->
+                <article class="pilar-card">
+                    <div class="pilar-header">
+                        <div class="pilar-number">01</div>
+                        <div class="pilar-icon">🗣️</div>
+                    </div>
+                    <div class="pilar-content">
+                        <h3 class="pilar-title">Humanización de la Tecnología</h3>
+                        <p class="pilar-description">
+                            A través de la voz, buscamos darle cercanía a temas que suelen ser complejos o abstractos, como los algoritmos de inteligencia artificial y los sistemas de detección digital, la narración humana crea conexión emocional con el aprendizaje inclusivo.
+                        </p>
+                        <div class="pilar-highlight">
+                            <span class="highlight-icon">💬</span>
+                            <span>Conceptos técnicos con calidez humana</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Pilar 2 -->
+                <article class="pilar-card">
+                    <div class="pilar-header">
+                        <div class="pilar-number">02</div>
+                        <div class="pilar-icon">📱</div>
+                    </div>
+                    <div class="pilar-content">
+                        <h3 class="pilar-title">Aprendizaje Flexible</h3>
+                        <p class="pilar-description">
+                            Fomentamos el consumo de contenido educativo "on-the-go" (en movimiento), adaptándonos al ritmo de vida del estudiante y ciudadano moderno. Aprende mientras te mueves por la vida.
+                        </p>
+                        <div class="pilar-highlight">
+                            <span class="highlight-icon">🚶</span>
+                            <span>Educación que se adapta a tu vida</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Pilar 3 -->
+                <article class="pilar-card">
+                    <div class="pilar-header">
+                        <div class="pilar-number">03</div>
+                        <div class="pilar-icon">🧠</div>
+                    </div>
+                    <div class="pilar-content">
+                        <h3 class="pilar-title">Refuerzo Cognitivo</h3>
+                        <p class="pilar-description">
+                            Al prescindir de lo visual, el oyente debe construir mentalmente los conceptos explicados, lo que estimula la imaginación y refuerza la retención de la información técnica.
+                        </p>
+                        <div class="pilar-highlight">
+                            <span class="highlight-icon">💭</span>
+                            <span>Aprendizaje profundo y duradero</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objetivo Académico Section -->
+    <section class="objetivo-section">
+        <div class="objetivo-container">
+            <div class="objetivo-decoration">
+                <div class="deco-circle"></div>
+                <div class="deco-circle"></div>
+                <div class="deco-circle"></div>
+            </div>
+            
+            <div class="objetivo-content">
+                <div class="objetivo-icon">🎯</div>
+                <h2 class="objetivo-title">Objetivo Académico</h2>
+                <div class="objetivo-quote">
+                    <div class="quote-mark">"</div>
+                    <p class="objetivo-text">
+                        Consolidar y evidenciar la apropiación de estrategias sobre tecnologías inmersivas, inteligencia artificial y ciencias computacionales accesibles mediante la producción de recursos didácticos auditivos, fomentando la capacidad de síntesis y la intervención educativa eficaz.
+                    </p>
+                    <div class="quote-mark end">"</div>
+                </div>
+                
+                <div class="objetivo-meta">
+                    <div class="meta-item">
+                        <span class="meta-icon">✅</span>
+                        <span class="meta-text">Apropiación de conceptos</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">🎙️</span>
+                        <span class="meta-text">Producción de recursos</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-icon">📢</span>
+                        <span class="meta-text">Divulgación efectiva</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Universidad Column -->
+            <div class="footer-column">
+                <h3 class="footer-title">
+                    <span class="footer-icon">🎓</span>
+                    Universidad
+                </h3>
+                <ul class="footer-list">
+                    <li><a href="#">Universidad de El Salvador</a></li>
+                    <li><a href="#">Facultad de Ciencias Naturales y Matemática</a></li>
+                    <li><a href="#">Licenciatura en Informática Educativa</a></li>
+                    <li><a href="#">Ciclo II - 2025</a></li>
+                </ul>
+            </div>
+
+            <!-- Materia Column -->
+            <div class="footer-column">
+                <h3 class="footer-title">
+                    <span class="footer-icon">📚</span>
+                    Materia
+                </h3>
+                <ul class="footer-list">
+                    <li>Las Tecnologías de la Información y las Necesidades Educativas Especiales II</li>
+                    <li><strong>CII-2025</strong></li>
+                </ul>
+            </div>
+
+            <!-- Información Column -->
+            <div class="footer-column">
+                <h3 class="footer-title">
+                    <span class="footer-icon">💡</span>
+                    Información
+                </h3>
+                <ul class="footer-list">
+                    <li>✨ Accesibilidad</li>
+                    <li>🎯 Contenido Único</li>
+                    <li>⏰ A Tu Ritmo</li>
+                    <li>🎨 Creatividad Pura</li>
+                    <li>🌍 Inclusión Total</li>
+                </ul>
+            </div>
+
+            <!-- Desarrollado por Column -->
+            <div class="footer-column">
+                <h3 class="footer-title">
+                    <span class="footer-icon">👥</span>
+                    Desarrollado por
+                </h3>
+                <ul class="footer-list">
+                    <li>Estefany Yaquelin Argueta Reyes</li>
+                    <li>Juan Carlos Balcarcel Pérez</li>
+                    <li>Carlos Antonio Salgado Romero</li>
+                    <li>Miguel Ángel Hernández Montano</li>
+                    <li>Julio Alberto Tobías González</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <p>© 2025 Universidad de El Salvador - Podcast Educativo</p>
+                <p>Hecho con <span class="heart">❤️</span> para la educación</p>
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link">📧</a>
+                    <a href="#" class="footer-social-link">💻</a>
+                    <a href="#" class="footer-social-link">📱</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <span>↑</span>
+    </button>
+
+    <script>
+        // ==================== CONFIGURACIÓN GLOBAL ====================
+        const config = {
+            animationDuration: 1000,
+            particleCount: 50,
+            cursorFollowSpeed: 0.15
+        };
+
+        // ==================== CURSOR PERSONALIZADO ====================
+        const cursor = document.querySelector('.custom-cursor');
+        const cursorFollower = document.querySelector('.cursor-follower');
+        let mouseX = 0;
+        let mouseY = 0;
+        let cursorX = 0;
+        let cursorY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+            cursor.style.left = mouseX + 'px';
+            cursor.style.top = mouseY + 'px';
+        });
+
+        function animateCursor() {
+            const dx = mouseX - cursorX;
+            const dy = mouseY - cursorY;
+            
+            cursorX += dx * config.cursorFollowSpeed;
+            cursorY += dy * config.cursorFollowSpeed;
+            
+            cursorFollower.style.left = cursorX + 'px';
+            cursorFollower.style.top = cursorY + 'px';
+            
+            requestAnimationFrame(animateCursor);
+        }
+        animateCursor();
+
+        // Efectos hover en elementos interactivos
+        const interactiveElements = document.querySelectorAll('a, button, .benefit-card, .pilar-card');
+        interactiveElements.forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                cursor.classList.add('cursor-hover');
+                cursorFollower.classList.add('cursor-hover');
+            });
+            el.addEventListener('mouseleave', () => {
+                cursor.classList.remove('cursor-hover');
+                cursorFollower.classList.remove('cursor-hover');
+            });
+        });
+
+        // ==================== PARTÍCULAS ANIMADAS ====================
+        const particlesContainer = document.getElementById('particles');
+
+        function createParticles() {
+            for (let i = 0; i < config.particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                const size = Math.random() * 5 + 2;
+                const posX = Math.random() * 100;
+                const posY = Math.random() * 100;
+                const delay = Math.random() * 5;
+                const duration = Math.random() * 20 + 10;
+                
+                particle.style.width = size + 'px';
+                particle.style.height = size + 'px';
+                particle.style.left = posX + '%';
+                particle.style.top = posY + '%';
+                particle.style.animationDelay = delay + 's';
+                particle.style.animationDuration = duration + 's';
+                
+                particlesContainer.appendChild(particle);
+            }
+        }
+        createParticles();
+
+        // ==================== NAVBAR FUNCIONALIDAD ====================
+        const navbar = document.getElementById('navbar');
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        let lastScroll = 0;
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                navbar.classList.add('navbar-scrolled');
+            } else {
+                navbar.classList.remove('navbar-scrolled');
+            }
+            
+            if (currentScroll > lastScroll && currentScroll > 500) {
+                navbar.classList.add('navbar-hidden');
+            } else {
+                navbar.classList.remove('navbar-hidden');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+            document.body.classList.toggle('menu-open');
+        });
+
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+                document.body.classList.remove('menu-open');
+            });
+        });
+
+        // ==================== ANIMACIONES DE TARJETAS ====================
+        const benefitCards = document.querySelectorAll('.benefit-card');
+
+        benefitCards.forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+            
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                
+                const centerX = rect.width / 2;
+                const centerY = rect.height / 2;
+                
+                const rotateX = (y - centerY) / 15;
+                const rotateY = (centerX - x) / 15;
+                
+                card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+            });
+        });
+
+        // Animación de anillos en los iconos
+        const iconRings = document.querySelectorAll('.ring');
+        iconRings.forEach((ring, index) => {
+            ring.style.animationDelay = `${index * 0.3}s`;
+        });
+
+        // ==================== SCROLL REVEAL ANIMATIONS ====================
+        const revealElements = document.querySelectorAll('.benefit-card, .pilar-card, .section-header, .fundamentos-content');
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                }
+            });
+        }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        });
+
+        revealElements.forEach(el => {
+            el.classList.add('reveal');
+            revealObserver.observe(el);
+        });
+
+        // ==================== BOTONES INTERACTIVOS ====================
+        const buttons = document.querySelectorAll('.btn-primary, .btn-secondary, .btn-cta');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                const ripple = document.createElement('span');
+                ripple.classList.add('ripple');
+                
+                const rect = this.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                const x = e.clientX - rect.left - size / 2;
+                const y = e.clientY - rect.top - size / 2;
+                
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = x + 'px';
+                ripple.style.top = y + 'px';
+                
+                this.appendChild(ripple);
+                
+                setTimeout(() => ripple.remove(), 600);
+            });
+        });
+
+        // ==================== SCROLL TO TOP ====================
+        const scrollTopBtn = document.getElementById('scrollTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 500) {
+                scrollTopBtn.classList.add('visible');
+            } else {
+                scrollTopBtn.classList.remove('visible');
+            }
+        });
+
+        scrollTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // ==================== SMOOTH SCROLLING ====================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // ==================== PARALLAX EFFECT ====================
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('.hero-bg-shapes .shape');
+            
+            parallaxElements.forEach((el, index) => {
+                const speed = (index + 1) * 0.5;
+                el.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+
+        // ==================== LOADING ANIMATION ====================
+        window.addEventListener('load', () => {
+            document.body.classList.add('loaded');
+        });
+
+        // ==================== CONSOLE MESSAGE ====================
+        console.log('%c🎙️ ¿Por Qué un Podcast?', 'font-size: 24px; font-weight: bold; color: #667eea;');
+        console.log('%cDescubre el poder del audio educativo 🚀', 'font-size: 14px; color: #764ba2;');
+    </script>
+</body>
+</html>
